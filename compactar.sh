@@ -13,7 +13,7 @@ case "$1" in
 		echo "compactado para tar $2"
                 ;;
 	"zip")
-		zip "$3".zip "$2" adding: "$2" (stored 0%)
+		zip "$3".zip "$2" 
 		echo "compactado para zip $2"
 		;;
 esac
